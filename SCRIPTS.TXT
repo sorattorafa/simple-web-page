@@ -1,0 +1,7 @@
+configurar usuário do sql = ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password' 
+ativar o mysql = sudo systemctl start mysql.service 
+inicia sql = sudo mysql -u root   
+usar database =  use join_us  
+descrever uma tabela = describe users
+rodar um script sql = source schema.sql 
+selecionar um banco = Select database()
